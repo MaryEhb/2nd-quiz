@@ -69,6 +69,7 @@ body{
     border-radius: 12px;
     cursor: pointer;
     transition: all linear .1s;
+    word-wrap: break-word;
 }
 
 .card .btn:hover{
@@ -121,6 +122,10 @@ body{
     .card.result-wrap{
         grid-column-start: 1;
         grid-column-end: 2;
+    }
+    
+    .btn{
+        max-width: 100px;
     }
 }
 
